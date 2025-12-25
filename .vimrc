@@ -89,3 +89,4 @@ set hlsearch
 " In Normal mode, Use space initialize insert mode to insert one character 
 " characterland then go back to normal mode 
 nnoremap <Space> i_<Esc>r
+
