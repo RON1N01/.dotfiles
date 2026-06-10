@@ -90,3 +90,9 @@ set hlsearch
 " characterland then go back to normal mode 
 nnoremap <Space> i_<Esc>r
 
+" Fix indenting correctly.
+syntax on
+filetype plugin indent on
+
+" YAML get spaces instead of indents to avoid breaking its indenting logic
+autocmd  FileType  yaml setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
