@@ -90,8 +90,10 @@ set hlsearch
 " characterland then go back to normal mode 
 nnoremap <Space> i_<Esc>r
 
-" Fix indenting correctly.
+" Syntax highlighting
 syntax on
+
+" Detect filetypes, load file-specific settings and indent rules.
 filetype plugin indent on
 
 " YAML get spaces instead of indents to avoid breaking its indenting logic
